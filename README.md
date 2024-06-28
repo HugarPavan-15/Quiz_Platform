@@ -2,7 +2,7 @@
 
 # Java Quiz Platform
 
-This Java application implements a simple quiz platform with user authentication, quiz creation, and quiz taking functionalities. It runs entirely on local memory data structures without the use of a database.
+This Java application implements a simple quiz platform with user authentication, quiz creation, and quiz taking functionalities.
 
 ## Features
 
@@ -49,10 +49,6 @@ This Java application implements a simple quiz platform with user authentication
 4. **Taking a Quiz:**
    - Enter the quiz ID of the quiz you want to take. Click "Load Quiz" to display questions. Answer the questions and click "Submit" to finish.
 
-## Notes
-
-- This application uses in-memory data structures (`HashMap`, `ArrayList`) to store users and quizzes.
-- For a production-ready application, consider implementing persistent storage using a database (e.g., MySQL, PostgreSQL) for better data management and scalability.
 
 
 This README provides an overview of your Java quiz platform, instructions for setup, and usage guidelines. Feel free to customize it further based on additional features or specifics of your implementation.
